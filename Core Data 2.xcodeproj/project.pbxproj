@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C965F7FB1CAC598800E46B1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F7FA1CAC598800E46B1E /* AppDelegate.swift */; };
-		C965F7FD1CAC598800E46B1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F7FC1CAC598800E46B1E /* ViewController.swift */; };
+		C965F7FD1CAC598800E46B1E /* MisContactos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F7FC1CAC598800E46B1E /* MisContactos.swift */; };
 		C965F8001CAC598800E46B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C965F7FE1CAC598800E46B1E /* Main.storyboard */; };
 		C965F8031CAC598800E46B1E /* Core_Data_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C965F8011CAC598800E46B1E /* Core_Data_2.xcdatamodeld */; };
 		C965F8051CAC598800E46B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C965F8041CAC598800E46B1E /* Assets.xcassets */; };
 		C965F8081CAC598800E46B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C965F8061CAC598800E46B1E /* LaunchScreen.storyboard */; };
 		C965F8131CAC598800E46B1E /* Core_Data_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F8121CAC598800E46B1E /* Core_Data_2Tests.swift */; };
 		C965F81E1CAC598800E46B1E /* Core_Data_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F81D1CAC598800E46B1E /* Core_Data_2UITests.swift */; };
+		C965F82C1CAC5F8100E46B1E /* NuevoContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C965F82B1CAC5F8100E46B1E /* NuevoContacto.swift */; settings = {ASSET_TAGS = (); }; };
+		C972D2651CB40F130015AB46 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C972D2641CB40F130015AB46 /* Item.swift */; settings = {ASSET_TAGS = (); }; };
+		C972D2671CB4103F0015AB46 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C972D2661CB4103F0015AB46 /* Contacto.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		C965F7F71CAC598800E46B1E /* Core Data 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C965F7FA1CAC598800E46B1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C965F7FC1CAC598800E46B1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C965F7FC1CAC598800E46B1E /* MisContactos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisContactos.swift; sourceTree = "<group>"; };
 		C965F7FF1CAC598800E46B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C965F8021CAC598800E46B1E /* Core_Data_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_2.xcdatamodel; sourceTree = "<group>"; };
 		C965F8041CAC598800E46B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		C965F8191CAC598800E46B1E /* Core Data 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C965F81D1CAC598800E46B1E /* Core_Data_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_2UITests.swift; sourceTree = "<group>"; };
 		C965F81F1CAC598800E46B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C965F82B1CAC5F8100E46B1E /* NuevoContacto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoContacto.swift; sourceTree = "<group>"; };
+		C972D2641CB40F130015AB46 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C972D2661CB4103F0015AB46 /* Contacto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				C965F7FA1CAC598800E46B1E /* AppDelegate.swift */,
-				C965F7FC1CAC598800E46B1E /* ViewController.swift */,
+				C965F7FC1CAC598800E46B1E /* MisContactos.swift */,
 				C965F7FE1CAC598800E46B1E /* Main.storyboard */,
+				C965F82B1CAC5F8100E46B1E /* NuevoContacto.swift */,
+				C972D2641CB40F130015AB46 /* Item.swift */,
+				C972D2661CB4103F0015AB46 /* Contacto.swift */,
 				C965F8041CAC598800E46B1E /* Assets.xcassets */,
 				C965F8061CAC598800E46B1E /* LaunchScreen.storyboard */,
 				C965F8091CAC598800E46B1E /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C965F7FD1CAC598800E46B1E /* ViewController.swift in Sources */,
+				C972D2651CB40F130015AB46 /* Item.swift in Sources */,
+				C965F7FD1CAC598800E46B1E /* MisContactos.swift in Sources */,
+				C972D2671CB4103F0015AB46 /* Contacto.swift in Sources */,
 				C965F7FB1CAC598800E46B1E /* AppDelegate.swift in Sources */,
+				C965F82C1CAC5F8100E46B1E /* NuevoContacto.swift in Sources */,
 				C965F8031CAC598800E46B1E /* Core_Data_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +497,7 @@
 				C965F8241CAC598800E46B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C965F8251CAC598800E46B1E /* Build configuration list for PBXNativeTarget "Core Data 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +506,7 @@
 				C965F8271CAC598800E46B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C965F8281CAC598800E46B1E /* Build configuration list for PBXNativeTarget "Core Data 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +515,7 @@
 				C965F82A1CAC598800E46B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
